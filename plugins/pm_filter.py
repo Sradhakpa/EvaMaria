@@ -83,6 +83,14 @@ async def next_page(bot, query):
             for file in files
         ]
 
+    btn.insert(0, 
+        [
+                InlineKeyboardButton(f'ɪɴғᴏ', 'info'),
+                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movies'),
+                InlineKeyboardButton(f'sᴇʀɪᴇs', 'series')
+        ]
+    )
+
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
@@ -612,7 +620,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('Piracy Is Crime')
+    elif query.data == "close":
+        await query.message.delete()
+    elif query.data == 'info':
+        await query.answer("⚠️ 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽 ⚠️\n\n𝙰𝙵𝚃𝙴𝚁 𝟷𝟶 𝙼𝙸𝙽𝚄𝚃𝙴𝚂 𝚃𝙷𝙸𝚂 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚆𝙸𝙻𝙻 𝙱𝙴 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙸𝙲𝙰𝙻𝙻𝚈 𝙳𝙴𝙻𝙴𝚃𝙴𝙳\n\n𝙸𝙵 𝚈𝙾𝚄 𝙳𝙾 𝙽𝙾𝚃 𝚂𝙴𝙴 𝚃𝙷𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙼𝙾𝚅𝙸𝙴 / 𝚂𝙴𝚁𝙸𝙴𝚂 𝙵𝙸𝙻𝙴, 𝙻𝙾𝙾𝙺 𝙰𝚃 𝚃𝙷𝙴 𝙽𝙴𝚇𝚃 𝙿𝙰𝙶𝙴\n\n𝙼𝙷 𝚁𝙴𝚀𝚄𝙴𝚂𝚃​ ⚡", True)
+    elif query.data == 'movies':
+        await query.answer("𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙾𝚁𝙼𝙰𝚃\n\n𝙶𝙾 𝚃𝙾 𝙶𝙾𝙾𝙶𝙻𝙴\n𝚃𝚈𝙿𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 ➠ 𝙲𝙾𝙿𝚈 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙽𝙰𝙼𝙴 ➠ 𝙿𝙰𝚂𝚃𝙴 𝙸𝙽 𝚃𝙷𝙸𝚂 𝙶𝚁𝙾𝚄𝙿​\n\n𝙴𝚇𝙰𝙼𝙿𝙻𝙴 : 𝙼𝙰𝙹𝙾𝚁 𝙾𝚁 𝙼𝙰𝙹𝙾𝚁 𝟸𝟶𝟸𝟸\n\n🚯 𝙳𝙾𝙽𝚃 𝚄𝚂𝙴​ ➠ ':(!,./)\n\n𝙼𝙷 𝚁𝙴𝚀𝚄𝙴𝚂𝚃​ ⚡", True)
+    elif query.data == 'series':
+        await query.answer("𝚂𝙴𝚁𝙸𝙴𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙾𝚁𝙼𝙰𝚃\n\n𝙶𝙾 𝚃𝙾 𝙶𝙾𝙾𝙶𝙻𝙴\n𝚃𝚈𝙿𝙴 𝚂𝙴𝚁𝙸𝙴𝚂 𝙽𝙰𝙼𝙴 ➠ 𝙲𝙾𝙿𝚈 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙽𝙰𝙼𝙴 ➠ 𝙿𝙰𝚂𝚃𝙴 𝙸𝙽 𝚃𝙷𝙸𝚂 𝙶𝚁𝙾𝚄𝙿​\n\n𝙴𝚇𝙰𝙼𝙿𝙻𝙴 : 𝙻𝙾𝙺𝙸 𝚂𝟶𝟷 𝙾𝚁 𝙻𝙾𝙺𝙸 𝚂𝟶𝟷𝙴𝟶𝟷​\n\n🚯 𝙳𝙾𝙽𝚃 𝚄𝚂𝙴​ ➠ ':(!,./)\n\n𝙼𝙷 𝚁𝙴𝚀𝚄𝙴𝚂𝚃​ ⚡", True)
+    try: await query.answer('𝐽𝑜𝑖𝑛 𝐾𝐷 𝐵𝑜𝑡𝑧...🙃') 
+    except: pass
 
 
 async def auto_filter(client, msg, spoll=False):
@@ -660,6 +677,14 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
+
+    btn.insert(0, 
+        [
+            InlineKeyboardButton(f'ɪɴғᴏ', 'info'),
+            InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movies'),
+            InlineKeyboardButton(f'sᴇʀɪᴇs', 'series')
+        ]
+    )
 
     if offset != "":
         key = f"{message.chat.id}-{message.message_id}"
