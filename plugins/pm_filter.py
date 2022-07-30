@@ -623,11 +623,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "close":
         await query.message.delete()
     elif query.data == 'info':
-        await query.answer("⚠️ 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽 ⚠️\n\n𝙰𝙵𝚃𝙴𝚁 𝟷𝟶 𝙼𝙸𝙽𝚄𝚃𝙴𝚂 𝚃𝙷𝙸𝚂 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚆𝙸𝙻𝙻 𝙱𝙴 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙸𝙲𝙰𝙻𝙻𝚈 𝙳𝙴𝙻𝙴𝚃𝙴𝙳\n\n𝙸𝙵 𝚈𝙾𝚄 𝙳𝙾 𝙽𝙾𝚃 𝚂𝙴𝙴 𝚃𝙷𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙼𝙾𝚅𝙸𝙴 / 𝚂𝙴𝚁𝙸𝙴𝚂 𝙵𝙸𝙻𝙴, 𝙻𝙾𝙾𝙺 𝙰𝚃 𝚃𝙷𝙴 𝙽𝙴𝚇𝚃 𝙿𝙰𝙶𝙴\n\n𝙼𝙷 𝚁𝙴𝚀𝚄𝙴𝚂𝚃​ ⚡", True)
+        await query.answer("⚠️ 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽 ⚠️\n\n𝙰𝙵𝚃𝙴𝚁 𝟷𝟶 𝙼𝙸𝙽𝚄𝚃𝙴𝚂 𝚃𝙷𝙸𝚂 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚆𝙸𝙻𝙻 𝙱𝙴 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙸𝙲𝙰𝙻𝙻𝚈 𝙳𝙴𝙻𝙴𝚃𝙴𝙳\n\n𝙸𝙵 𝚈𝙾𝚄 𝙳𝙾 𝙽𝙾𝚃 𝚂𝙴𝙴 𝚃𝙷𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙼𝙾𝚅𝙸𝙴 / 𝚂𝙴𝚁𝙸𝙴𝚂 𝙵𝙸𝙻𝙴, 𝙻𝙾𝙾𝙺 𝙰𝚃 𝚃𝙷𝙴 𝙽𝙴𝚇𝚃 𝙿𝙰𝙶𝙴\n\n𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙻𝚄𝙱 ⚡️", True)
     elif query.data == 'movies':
-        await query.answer("𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙾𝚁𝙼𝙰𝚃\n\n𝙶𝙾 𝚃𝙾 𝙶𝙾𝙾𝙶𝙻𝙴\n𝚃𝚈𝙿𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 ➠ 𝙲𝙾𝙿𝚈 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙽𝙰𝙼𝙴 ➠ 𝙿𝙰𝚂𝚃𝙴 𝙸𝙽 𝚃𝙷𝙸𝚂 𝙶𝚁𝙾𝚄𝙿​\n\n𝙴𝚇𝙰𝙼𝙿𝙻𝙴 : 𝙼𝙰𝙹𝙾𝚁 𝙾𝚁 𝙼𝙰𝙹𝙾𝚁 𝟸𝟶𝟸𝟸\n\n🚯 𝙳𝙾𝙽𝚃 𝚄𝚂𝙴​ ➠ ':(!,./)\n\n𝙼𝙷 𝚁𝙴𝚀𝚄𝙴𝚂𝚃​ ⚡", True)
+        await query.answer("𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙾𝚁𝙼𝙰𝚃\n\n𝙶𝙾 𝚃𝙾 𝙶𝙾𝙾𝙶𝙻𝙴\n𝚃𝚈𝙿𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 ➠ 𝙲𝙾𝙿𝚈 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙽𝙰𝙼𝙴 ➠ 𝙿𝙰𝚂𝚃𝙴 𝙸𝙽 𝚃𝙷𝙸𝚂 𝙶𝚁𝙾𝚄𝙿​\n\n𝙴𝚇𝙰𝙼𝙿𝙻𝙴 : 𝙼𝙰𝙹𝙾𝚁 𝙾𝚁 𝙼𝙰𝙹𝙾𝚁 𝟸𝟶𝟸𝟸\n\n🚯 𝙳𝙾𝙽𝚃 𝚄𝚂𝙴​ ➠ ':(!,./)\n\n𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙻𝚄𝙱 ⚡️", True)
     elif query.data == 'series':
-        await query.answer("𝚂𝙴𝚁𝙸𝙴𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙾𝚁𝙼𝙰𝚃\n\n𝙶𝙾 𝚃𝙾 𝙶𝙾𝙾𝙶𝙻𝙴\n𝚃𝚈𝙿𝙴 𝚂𝙴𝚁𝙸𝙴𝚂 𝙽𝙰𝙼𝙴 ➠ 𝙲𝙾𝙿𝚈 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙽𝙰𝙼𝙴 ➠ 𝙿𝙰𝚂𝚃𝙴 𝙸𝙽 𝚃𝙷𝙸𝚂 𝙶𝚁𝙾𝚄𝙿​\n\n𝙴𝚇𝙰𝙼𝙿𝙻𝙴 : 𝙻𝙾𝙺𝙸 𝚂𝟶𝟷 𝙾𝚁 𝙻𝙾𝙺𝙸 𝚂𝟶𝟷𝙴𝟶𝟷​\n\n🚯 𝙳𝙾𝙽𝚃 𝚄𝚂𝙴​ ➠ ':(!,./)\n\n𝙼𝙷 𝚁𝙴𝚀𝚄𝙴𝚂𝚃​ ⚡", True)
+        await query.answer("𝚂𝙴𝚁𝙸𝙴𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙾𝚁𝙼𝙰𝚃\n\n𝙶𝙾 𝚃𝙾 𝙶𝙾𝙾𝙶𝙻𝙴\n𝚃𝚈𝙿𝙴 𝚂𝙴𝚁𝙸𝙴𝚂 𝙽𝙰𝙼𝙴 ➠ 𝙲𝙾𝙿𝚈 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙽𝙰𝙼𝙴 ➠ 𝙿𝙰𝚂𝚃𝙴 𝙸𝙽 𝚃𝙷𝙸𝚂 𝙶𝚁𝙾𝚄𝙿​\n\n𝙴𝚇𝙰𝙼𝙿𝙻𝙴 : 𝙻𝙾𝙺𝙸 𝚂𝟶𝟷 𝙾𝚁 𝙻𝙾𝙺𝙸 𝚂𝟶𝟷𝙴𝟶𝟷​\n\n🚯 𝙳𝙾𝙽𝚃 𝚄𝚂𝙴​ ➠ ':(!,./)\n\n𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙻𝚄𝙱 ⚡️", True)
     try: await query.answer('𝐽𝑜𝑖𝑛 𝐾𝐷 𝐵𝑜𝑡𝑧...🙃') 
     except: pass
 
@@ -736,20 +736,22 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"Here is what i found for your query {search}"
     if imdb and imdb.get('poster'):
         try:
-            await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
+            kdbotz = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            kdbotz = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
             logger.exception(e)
-            await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            kdbotz = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+        kdbotz = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     if spoll:
         await msg.message.delete()
-
+        await asyncio.sleep(600)
+        await kdbotz.delete()
+        
 
 async def advantage_spell_chok(msg):
     query = re.sub(
