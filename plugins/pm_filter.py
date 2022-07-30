@@ -747,10 +747,12 @@ async def auto_filter(client, msg, spoll=False):
             kdbotz = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
         kdbotz = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+       
+    await asyncio.sleep(600)
+    await kdbotz.delete()
+
     if spoll:
         await msg.message.delete()
-        await asyncio.sleep(600)
-        await kdbotz.delete()
         
 
 async def advantage_spell_chok(msg):
