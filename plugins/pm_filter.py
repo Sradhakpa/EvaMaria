@@ -628,7 +628,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙾𝚁𝙼𝙰𝚃\n\n𝙶𝙾 𝚃𝙾 𝙶𝙾𝙾𝙶𝙻𝙴\n𝚃𝚈𝙿𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 ➠ 𝙲𝙾𝙿𝚈 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙽𝙰𝙼𝙴 ➠ 𝙿𝙰𝚂𝚃𝙴 𝙸𝙽 𝚃𝙷𝙸𝚂 𝙶𝚁𝙾𝚄𝙿​\n\n𝙴𝚇𝙰𝙼𝙿𝙻𝙴 : 𝙼𝙰𝙹𝙾𝚁 𝙾𝚁 𝙼𝙰𝙹𝙾𝚁 𝟸𝟶𝟸𝟸\n\n🚯 𝙳𝙾𝙽𝚃 𝚄𝚂𝙴​ ➠ ':(!,./)\n\n𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙻𝚄𝙱 ⚡️", True)
     elif query.data == 'series':
         await query.answer("𝚂𝙴𝚁𝙸𝙴𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙾𝚁𝙼𝙰𝚃\n\n𝙶𝙾 𝚃𝙾 𝙶𝙾𝙾𝙶𝙻𝙴\n𝚃𝚈𝙿𝙴 𝚂𝙴𝚁𝙸𝙴𝚂 𝙽𝙰𝙼𝙴 ➠ 𝙲𝙾𝙿𝚈 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙽𝙰𝙼𝙴 ➠ 𝙿𝙰𝚂𝚃𝙴 𝙸𝙽 𝚃𝙷𝙸𝚂 𝙶𝚁𝙾𝚄𝙿​\n\n𝙴𝚇𝙰𝙼𝙿𝙻𝙴 : 𝙻𝙾𝙺𝙸 𝚂𝟶𝟷 𝙾𝚁 𝙻𝙾𝙺𝙸 𝚂𝟶𝟷𝙴𝟶𝟷​\n\n🚯 𝙳𝙾𝙽𝚃 𝚄𝚂𝙴​ ➠ ':(!,./)\n\n𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙻𝚄𝙱 ⚡️", True)
-    try: await query.answer('𝐽𝑜𝑖𝑛 𝐾𝐷 𝐵𝑜𝑡𝑧...🙃') 
+    try: await query.answer('𝐽𝑜𝑖𝑛 @MCSTREAM1 ...🙃') 
     except: pass
 
 
