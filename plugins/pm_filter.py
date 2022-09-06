@@ -680,9 +680,9 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'ɪɴғᴏ', 'info'),
-            InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movies'),
-            InlineKeyboardButton(f'sᴇʀɪᴇs', 'series')
+            InlineKeyboardButton(f'🦋ɪɴғᴏ🦋', 'info'),
+            InlineKeyboardButton(f'🦋ᴍᴏᴠɪᴇ🦋', 'movies'),
+            InlineKeyboardButton(f'🦋sᴇʀɪᴇs🦋', 'series')
         ]
     )
 
