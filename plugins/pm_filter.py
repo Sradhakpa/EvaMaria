@@ -85,9 +85,9 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-                InlineKeyboardButton(f'🦋ɪɴғᴏ🦋', '🦋info🦋'),
-                InlineKeyboardButton(f'🦋ᴍᴏᴠɪᴇ🦋', '🦋movies🦋'),
-                InlineKeyboardButton(f'🦋sᴇʀɪᴇs🦋', '🦋series🦋')
+                InlineKeyboardButton(f'🦋ɪɴғᴏ🦋', 'info'),
+                InlineKeyboardButton(f'🦋ᴍᴏᴠɪᴇ🦋', 'movies'),
+                InlineKeyboardButton(f'🦋sᴇʀɪᴇs🦋', 'series')
         ]
     )
 
